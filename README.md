@@ -45,9 +45,11 @@ You can get this using json generator fake data [page](https://app.json-generato
 - Second option: Just continue with created data form json server(I am using this option):
 
 ### How to run JSON SERVER (keep in mind the path to be used)
+In the project root path: 
+
 Pass it to JSON Server CLI
 ```shell
-$ npx json-server data/db.json -p 3000 --watch
+$ npx json-server src/data/db.json -p 3000 --watch
 ``` 
 Response: 
 ```shell
