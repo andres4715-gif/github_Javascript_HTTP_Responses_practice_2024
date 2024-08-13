@@ -1,6 +1,7 @@
 # README #
-
-19-Practicing-http-responses_2024 Use this folder to Practice JSON API REST AUTOMATION
+Practice JSON API REST AUTOMATION
+## POSTMAN:
+I already have created a new collection on POSTMAN to play with the json server. 
 
 ## Resources: 
 - Follow this [video](https://www.youtube.com/watch?v=1xcKP__PxsY) to install JSON SERVER
