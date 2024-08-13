@@ -1,0 +1,15 @@
+{
+  "name": "19-practicing-http-responses_2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node Destructuring/gettingDataFromAPI.js",
+    "test:2": "node Destructuring/objectDestructuring.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

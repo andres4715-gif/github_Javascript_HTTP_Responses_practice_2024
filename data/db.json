@@ -1,0 +1,249 @@
+{
+  "posts": [
+    {
+      "id": "mN9o0pQ1rS2tU3vW",
+      "title": "Post 3",
+      "views": 300,
+      "author": {
+        "description": "Desarrollador web apasionado",
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "id": "tYpIcOdE"
+      }
+    },
+    {
+      "id": "xY4zA5bC6dE7fG8",
+      "title": "Post 4",
+      "views": 400,
+      "author": {
+        "description": "Especialista en diseño gráfico",
+        "firstName": "María",
+        "lastName": "Rodríguez",
+        "id": "aB1cD2eF"
+      }
+    },
+    {
+      "id": "9hJ7kL8mN9o0pQ1",
+      "title": "Post 5",
+      "views": 500,
+      "author": {
+        "description": "Experta en marketing digital",
+        "firstName": "Carlos",
+        "lastName": "Gómez",
+        "id": "mN9o0pQ1"
+      }
+    },
+    {
+      "id": "rS2tU3vWxY4zA5b",
+      "title": "Post 6",
+      "views": 600,
+      "author": {
+        "description": "Desarrollador backend experimentado",
+        "firstName": "Ana",
+        "lastName": "López",
+        "id": "rS2tU3vW"
+      }
+    },
+    {
+      "id": "C6dE7fG8hJ9kL0",
+      "title": "Post 7",
+      "views": 700,
+      "author": {
+        "description": "Diseñadora UX/UI creativa",
+        "firstName": "Pedro",
+        "lastName": "González",
+        "id": "C6dE7fG8"
+      }
+    },
+    {
+      "id": "F3gH4iJ5kL6mN9",
+      "title": "Post 8",
+      "views": 800,
+      "author": {
+        "description": "Especialista en seguridad informática",
+        "firstName": "Sofía",
+        "lastName": "Hernández",
+        "id": "F3gH4iJ5"
+      }
+    },
+    {
+      "id": "U3vWxY4zA5bC6d",
+      "title": "Post 9",
+      "views": 900,
+      "author": {
+        "description": "Desarrollador frontend innovador",
+        "firstName": "Luis",
+        "lastName": "Martínez",
+        "id": "U3vWxY4z"
+      }
+    },
+    {
+      "id": "1rS2tU3vWxY4zA",
+      "title": "Post 10",
+      "views": 1000,
+      "author": {
+        "description": "Experto en inteligencia artificial",
+        "firstName": "Isabel",
+        "lastName": "Díaz",
+        "id": "1rS2tU3v"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": "4sD5fG6hJ7kL8mN9",
+      "text": "Comentario 1",
+      "postId": null,
+      "author": {
+        "name": "Juan",
+        "lastName": "Pérez",
+        "city": "Madrid",
+        "description": "Desarrollador web apasionado"
+      }
+    },
+    {
+      "id": "aB1cD2eF3gH4iJ5",
+      "text": "Comentario 2",
+      "postId": null,
+      "author": {
+        "name": "María",
+        "lastName": "Rodríguez",
+        "city": "Barcelona",
+        "description": "Especialista en diseño gráfico"
+      }
+    },
+    {
+      "id": "mN9o0pQ1rS2tU3v",
+      "text": "Comentario 3",
+      "postId": null,
+      "author": {
+        "name": "Carlos",
+        "lastName": "Gómez",
+        "city": "Valencia",
+        "description": "Experto en marketing digital"
+      }
+    },
+    {
+      "id": "xY4zA5bC6dE7fG8",
+      "text": "Comentario 4",
+      "postId": "mN9o0pQ1rS2tU3vW",
+      "author": {
+        "name": "Ana",
+        "lastName": "López",
+        "city": "Sevilla",
+        "description": "Desarrolladora backend experimentada"
+      }
+    },
+    {
+      "id": "9hJ7kL8mN9o0pQ1",
+      "text": "Comentario 5",
+      "postId": "xY4zA5bC6dE7fG8",
+      "author": {
+        "name": "Pedro",
+        "lastName": "González",
+        "city": "Zaragoza",
+        "description": "Diseñador UX/UI creativo"
+      }
+    },
+    {
+      "id": "rS2tU3vWxY4zA5b",
+      "text": "Comentario 6",
+      "postId": "9hJ7kL8mN9o0pQ1",
+      "author": {
+        "name": "Sofía",
+        "lastName": "Hernández",
+        "city": "Málaga",
+        "description": "Especialista en seguridad informática"
+      }
+    },
+    {
+      "id": "C6dE7fG8hJ9kL0",
+      "text": "Comentario 7",
+      "postId": "rS2tU3vWxY4zA5b",
+      "author": {
+        "name": "Luis",
+        "lastName": "Martínez",
+        "city": "Granada",
+        "description": "Desarrollador frontend innovador"
+      }
+    },
+    {
+      "id": "F3gH4iJ5kL6mN9",
+      "text": "Comentario 8",
+      "postId": "C6dE7fG8hJ9kL0",
+      "author": {
+        "name": "Isabel",
+        "lastName": "Díaz",
+        "city": "Córdoba",
+        "description": "Experta en inteligencia artificial"
+      }
+    }
+  ],
+  "profile": [
+    {
+      "id": "aB1cD2eF",
+      "name": "Juan Pérez",
+      "address": {
+        "street": "Calle Falsa 123",
+        "city": "Madrid",
+        "neighborhood": "Centro"
+      },
+      "access": {
+        "level": "administrator",
+        "permissions": ["create", "read", "update", "delete"]
+      }
+    },
+    {
+      "id": "tYpIcOdE",
+      "name": "Typicode",
+      "address": {
+        "street": "Avenida Siempre Viva 456",
+        "city": "Barcelona",
+        "neighborhood": "Gothic"
+      },
+      "access": {
+        "level": "user",
+        "permissions": ["read", "update"]
+      }
+    },
+    {
+      "id": "mN9o0pQ1",
+      "name": "María Rodríguez",
+      "address": {
+        "street": "Calle de la Luna 789",
+        "city": "Valencia",
+        "neighborhood": "El Carmen"
+      },
+      "access": {
+        "level": "user_restricted",
+        "permissions": ["read"]
+      }
+    },
+    {
+      "id": "xY4zA5bC",
+      "name": "Carlos Gómez",
+      "address": {
+        "street": "Paseo de Gracia 1011",
+        "city": "Sevilla",
+        "neighborhood": "Santa Cruz"
+      },
+      "access": {
+        "level": "moderator",
+        "permissions": ["create", "read", "update"]
+      }
+    },
+    {
+      "id": "9hJ7kL8m",
+      "name": "Ana López",
+      "address": {
+        "street": "Calle de los Libreros 1213",
+        "city": "Granada",
+        "neighborhood": "Albaicín"
+      },
+      "access": {
+        "level": "guest",
+        "permissions": ["read"]
+      }
+    }
+  ]
+}
