@@ -1,4 +1,5 @@
 /*
+PROFILE
 get all the profiles with age > 40 and .access.permissions.length > 2 
 then get the ids and access and the sent it into an object. 
 then in a new independent variable change the type for JSON.stringify(variable);
