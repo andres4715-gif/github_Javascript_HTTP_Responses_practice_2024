@@ -1,5 +1,5 @@
 /*
-POST
+GET POSTS
 After put the server up, get data from http://localhost:3000/posts/ 
 - Print id in a object for this user: 
         "firstName": "María",
