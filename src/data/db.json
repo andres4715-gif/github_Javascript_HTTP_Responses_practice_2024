@@ -183,6 +183,7 @@
     {
       "id": "aB1cD2eF",
       "name": "Juan Pérez",
+      "age": 23,
       "address": {
         "street": "Calle Falsa 123",
         "city": "Madrid",
@@ -196,6 +197,7 @@
     {
       "id": "tYpIcOdE",
       "name": "Typicode",
+      "age": 18,
       "address": {
         "street": "Avenida Siempre Viva 456",
         "city": "Barcelona",
@@ -209,6 +211,7 @@
     {
       "id": "mN9o0pQ1",
       "name": "María Rodríguez",
+      "age": 45,
       "address": {
         "street": "Calle de la Luna 789",
         "city": "Valencia",
@@ -222,6 +225,7 @@
     {
       "id": "xY4zA5bC",
       "name": "Carlos Gómez",
+      "age": 17,
       "address": {
         "street": "Paseo de Gracia 1011",
         "city": "Sevilla",
@@ -235,6 +239,7 @@
     {
       "id": "9hJ7kL8m",
       "name": "Ana López",
+      "age": 50,
       "address": {
         "street": "Calle de los Libreros 1213",
         "city": "Granada",
