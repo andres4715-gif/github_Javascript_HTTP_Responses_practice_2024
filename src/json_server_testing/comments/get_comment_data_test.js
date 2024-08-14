@@ -1,4 +1,5 @@
 /*
+COMMENTS
 get all the cities which start with "M" then get the ids and the sent it into an object. 
 then in a new independent variable change the type for JSON.stringify(variable);
 */
