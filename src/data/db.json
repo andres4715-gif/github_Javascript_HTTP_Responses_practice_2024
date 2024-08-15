@@ -263,7 +263,7 @@
         "level": "generic_moderator",
         "permissions": [
           "create",
-          "read", 
+          "read",
           "edit",
           "delete",
           "partial_update"
@@ -289,7 +289,7 @@
           "amount": 200
         }
       ],
-      "planType": "Basic"
+      "planType": "GOLD"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174001",
