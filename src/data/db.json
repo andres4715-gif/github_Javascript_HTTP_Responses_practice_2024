@@ -289,7 +289,7 @@
           "amount": 200
         }
       ],
-      "planType": "GOLD"
+      "planType": "Super Plus"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174001",
@@ -306,9 +306,13 @@
         {
           "date": "2022-11-20",
           "amount": 700
+        },
+        {
+          "date": "2022-11-20",
+          "amount": 1000
         }
       ],
-      "planType": "Plus"
+      "planType": "PREMIUM ADVANCE +"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174002",
@@ -346,7 +350,7 @@
           "amount": 450
         }
       ],
-      "planType": "Mega Plus"
+      "planType": "PREMIUM ADVANCE +"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174004",
@@ -382,9 +386,13 @@
         {
           "date": "2023-04-05",
           "amount": 300
+        },
+        {
+          "date": "2023-04-05",
+          "amount": 4000
         }
       ],
-      "planType": "Plus"
+      "planType": "PREMIUM ADVANCE +"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174006",
@@ -403,7 +411,7 @@
           "amount": 550
         }
       ],
-      "planType": "Dorado"
+      "planType": "PREMIUM ADVANCE +"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174007",
@@ -422,7 +430,7 @@
           "amount": 300
         }
       ],
-      "planType": "Mega Plus"
+      "planType": "PREMIUM ADVANCE +"
     }
   ]
 }

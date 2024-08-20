@@ -1,7 +1,7 @@
 const { expect } = require("expect");
 /*
 PATCH Credit cart
-Get Name, lastName and id for any of the credit cart users witch withdrawals amount greater than 500 and change plan to plus if this specific plan in not set before
+Get Name, lastName and id for any of the credit cart users witch withdrawals amount greater than 500 and change plan to PREMIUM ADVANCE +.
 */
 
 const requestCreditCart = async () => {
@@ -22,13 +22,35 @@ const responseCreditCart = async () => {
     const jsonResponse = await response.json();
     
     for(const key in jsonResponse) {
+      let pathRequest;
       const data = jsonResponse[key];
-      console.log(data);
-      // TODO Make the condition to filter data.
+      const withdrawals = data.withdrawals.map(x => x.amount); 
+      const total = withdrawals.reduce((a, b) => a + b, 0);
+      if(total > 500) {
+        pathRequest = await fetch(`http://localhost:3000/creditCart/${data.id}`, {
+          method: 'PATCH',
+          headers: {
+            Connection: "keep-alive",
+          },
+          body: `
+            {
+              "planType": "PREMIUM ADVANCE +"
+            }
+          `
+        }
+      );
+      const finalData = await pathRequest.json(); 
+      console.log(finalData.id);
+      }
     }
   } catch (error) {
     console.error(`🔥🔥🔥 ${error.message} 🔥🔥🔥`);
   }
 };
 
-responseCreditCart();
+const main = () => {
+  return responseCreditCart();
+}
+
+main();
+
