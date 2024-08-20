@@ -91,5 +91,39 @@ GET   /profile
 PUT   /profile
 PATCH /profile
 ```
+# expect library
+For more expect options, please check this [LINK](https://jestjs.io/docs/expect#expectvalue)
+
+```shell
+Here are the main forms and options you can use with the expect library:
+
+Matchers
+expect(value).toBe(expectedValue): Verifies that the value is equal to the expected value.
+expect(value).toEqual(expectedValue): Verifies that the value is deeply equal to the expected value, including objects and arrays.
+expect(value).toBeNull(): Verifies that the value is null.
+expect(value).toBeUndefined(): Verifies that the value is undefined.
+expect(value).toBeTruthy(): Verifies that the value is truthy.
+expect(value).toBeFalsy(): Verifies that the value is falsy.
+expect(value).toBeGreaterThan(expectedValue): Verifies that the value is greater than the expected value.
+expect(value).toBeLessThan(expectedValue): Verifies that the value is less than the expected value.
+expect(value).toBeCloseTo(expectedValue): Verifies that the value is close to the expected value (for floating-point numbers).
+expect(value).toContain(expectedValue): Verifies that the value contains the expected value (for arrays and strings).
+expect(value).toMatch(expectedValue): Verifies that the value matches the expected pattern (for strings).
+
+Arrays and Objects
+expect(array).toHaveLength(expectedLength): Verifies that the array has the expected length.
+expect(object).toHaveProperty(key): Verifies that the object has the expected property.
+expect(object).toHaveProperty(key, value): Verifies that the object has the expected property and value.
+
+Errors
+expect(() => { /* code that should throw an error */ }).toThrow(): Verifies that the code throws an error.
+expect(() => { /* code that should throw an error */ }).toThrowError(expectedError): Verifies that the code throws a specific error.
+
+Others
+expect(value).anything(): Verifies that the value is anything (useful for wildcard tests).
+expect(value).not.toBe(expectedValue): Verifies that the value is not equal to the expected value.
+You can combine these matchers to create more complex and specific tests.
+```
+
 
 # _repository in construction_ 🚧 🚜 🪚 🔧
