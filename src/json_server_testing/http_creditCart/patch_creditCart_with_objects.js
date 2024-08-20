@@ -20,6 +20,7 @@ const responseCreditCart = async () => {
     expect(response.status).toBe(200);
     expect(response.statusText).toEqual("OK");
     const jsonResponse = await response.json();
+    
     for(const key in jsonResponse) {
       const data = jsonResponse[key];
       console.log(data);
