@@ -289,7 +289,7 @@
           "amount": 200
         }
       ],
-      "planType": "Super Plus"
+      "planType": "BASIC"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174001",
@@ -331,7 +331,7 @@
           "amount": 250
         }
       ],
-      "planType": "Dorado"
+      "planType": "BASIC"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174003",
@@ -369,7 +369,7 @@
           "amount": 200
         }
       ],
-      "planType": "Basic"
+      "planType": "BASIC"
     },
     {
       "id": "123e4567-e89b-12d3-a456-426614174005",
