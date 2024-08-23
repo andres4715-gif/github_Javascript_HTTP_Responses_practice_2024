@@ -94,7 +94,7 @@ PATCH /profile
 # expect library
 For more expect options, please check this [LINK](https://jestjs.io/docs/expect#expectvalue)
 
-```shell
+```javascript
 Here are the main forms and options you can use with the expect library:
 
 Matchers
