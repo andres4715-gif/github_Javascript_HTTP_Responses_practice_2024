@@ -5,8 +5,7 @@ const albums = async () => {
       method: "GET",
     }
   );
-  const initialData = response.json();
-  return initialData;
+  return response.json();
 };
 
 const myData = async () => {
@@ -19,6 +18,7 @@ const myData = async () => {
     }
     console.log(`--- ✅ Number of titles: ${array.length}`);
     console.log("--- ✅ Obtained titles: ", array);
+
     let variable;
     const checking = array.some(
       (title) => title === "dolorem eum magni eos aperiam quia"
@@ -54,6 +54,6 @@ const myData = async () => {
 
 const main = () => {
   return myData();
-}
+};
 
 main();

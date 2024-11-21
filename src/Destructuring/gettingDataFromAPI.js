@@ -2,8 +2,7 @@ const myFullData = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/users", {
     method: "GET", // method: "GET",  is not mandatory because GET METHOD is a default HTTP METHOD.
   });
-  const initialData = await response.json();
-  return initialData;
+  return await response.json();
 };
 
 const myData = async () => {
@@ -17,6 +16,7 @@ const myData = async () => {
           body: myData.username,
           userId: myData.id,
         };
+        console.log(`--- Data to send:', ${JSON.stringify(variable)}`);
         const postNewUser = fetch("https://jsonplaceholder.typicode.com/posts", { // postNewUser returns a new promise.
             method: "POST",
             body: JSON.stringify(variable),
@@ -40,7 +40,7 @@ const myData = async () => {
 };
 
 const main = () => {
-  return myData(); 
-}
+  return myData();
+};
 
 main();

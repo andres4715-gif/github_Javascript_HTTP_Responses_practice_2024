@@ -1,7 +1,7 @@
 /*
-PATCH Credit cart
-Get id for any of the credit cart users witch withdrawals.amount less than 400 and change plan to BASIC.
-*/
+ PATCH Credit cart
+ Get id for any of the credit cart users witch withdrawals.amount less than 400 and change plan to BASIC.
+ */
 
 const request = async () => {
   try {

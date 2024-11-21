@@ -1,7 +1,7 @@
 const { expect } = require("expect");
 
 /* Create a new user on the db using post method sending body as a string: 
-Then this user should be deleted to avoid fill the DB with unnecessary data*/
+ Then this user should be deleted to avoid fill the DB with unnecessary data*/
 
 const request = async () => {
   const postNewClient = await fetch("http://localhost:3000/profile/", {

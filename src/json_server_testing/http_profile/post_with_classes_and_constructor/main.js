@@ -30,18 +30,18 @@ const request = async () => {
 };
 
 const deleteUser = async () => {
-    const deleteId = user.id; 
-    const httpDeleteMethod = await fetch(`http://localhost:3000/profile/${deleteId}`, {
-        method: "DELETE"
-    })
-    return httpDeleteMethod;
-}
+  const deleteId = user.id;
+  const httpDeleteMethod = await fetch(`http://localhost:3000/profile/${deleteId}`, {
+    method: "DELETE"
+  });
+  return httpDeleteMethod;
+};
 
 const deleteResponse = async () => {
-    const jsonResponse = await deleteUser();
-    const deletedUser = await jsonResponse.json();
-    console.log(`--- 🚫 Deleted user: \n ${JSON.stringify(deletedUser, null, 2)}`);
-}
+  const jsonResponse = await deleteUser();
+  const deletedUser = await jsonResponse.json();
+  console.log(`--- 🚫 Deleted user: \n ${JSON.stringify(deletedUser, null, 2)}`);
+};
 
 const main = async () => {
   await request();

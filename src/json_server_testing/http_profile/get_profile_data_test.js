@@ -1,9 +1,9 @@
 /*
-GET PROFILE
-get all the profiles with age > 40 and .access.permissions.length > 2 
-then get the ids and access and the sent it into an object. 
-then in a new independent variable change the type for JSON.stringify(variable);
-*/
+ GET PROFILE
+ get all the profiles with age > 40 and .access.permissions.length > 2
+ then get the ids and access and the sent it into an object.
+ then in a new independent variable change the type for JSON.stringify(variable);
+ */
 
 const request = async () => {
   const getData = await fetch("http://localhost:3000/profile/", {
@@ -23,7 +23,7 @@ const response = async () => {
     let variable;
 
     if (fullJsonData.age > 40 && fullJsonData.access.permissions.length > 2) {
-        variable = {
+      variable = {
         id: fullJsonData.id,
         name: fullJsonData.name,
         access: fullJsonData.access.permissions,

@@ -1,13 +1,13 @@
 /*
-GET POSTS
-After put the server up, get data from http://localhost:3000/posts/ 
-- Print id in a object for this user: 
-        "firstName": "María",
-        "lastName": "Rodríguez",
-*/
+ GET POSTS
+ After put the server up, get data from http://localhost:3000/posts/
+ - Print id in a object for this user:
+ "firstName": "María",
+ "lastName": "Rodríguez",
+ */
 
 const getPostsData = async () => {
-        
+
   const data = await fetch("http://localhost:3000/posts/", {
     method: "GET",
     headers: {

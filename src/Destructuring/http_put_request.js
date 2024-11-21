@@ -1,9 +1,9 @@
 /*
-TOMAR LOS DATOS DEL ARCHIVO: 19-Practicing-http-responses_2024/data/familyData.json
-con un setTimeout de 2 segundos
-los datos de la segunda persona enviarlos con una HTTP put request a está pagina: 
-https://restful-booker.herokuapp.com/booking/{id}
-*/
+ TOMAR LOS DATOS DEL ARCHIVO: 19-Practicing-http-responses_2024/data/familyData.json
+ con un setTimeout de 2 segundos
+ los datos de la segunda persona enviarlos con una HTTP put request a está pagina:
+ https://restful-booker.herokuapp.com/booking/{id}
+ */
 
 const data = require("../data/familyData.json");
 const initialUser = require("../data/query.js");
@@ -62,13 +62,13 @@ const obtainedData = async () => {
 };
 
 // Getting firstName and lastName from obtainedData()
-const finalExecution = async() => {
+const finalExecution = async () => {
   const gettingToken = await getNewToken();
   await obtainedData();
   id = await user();
 
   const response = await fetch(
-    `https://restful-booker.herokuapp.com/booking/${id}`, 
+    `https://restful-booker.herokuapp.com/booking/${id}`,
     {
       method: "PUT",
       body: `{
@@ -91,13 +91,13 @@ const finalExecution = async() => {
   );
   const newUserAdded = await response.json();
   const newName = newUserAdded.firstname;
-  if(newName === "Liliana") {
-    console.log(`---🎖️🎖️🎖️🎖️🎖️ YOU GOT IT 🎖️🎖️🎖️🎖️🎖️`); 
+  if (newName === "Liliana") {
+    console.log(`---🎖️🎖️🎖️🎖️🎖️ YOU GOT IT 🎖️🎖️🎖️🎖️🎖️`);
   }
-}
+};
 
 const main = () => {
   return finalExecution();
-}
+};
 
 main();

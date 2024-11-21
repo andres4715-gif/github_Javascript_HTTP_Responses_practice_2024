@@ -1,6 +1,6 @@
 /*
-CHECK THIS PAGE TO DO SOME EXERCISES: https://restful-booker.herokuapp.com/apidoc/index.html
-*/
+ CHECK THIS PAGE TO DO SOME EXERCISES: https://restful-booker.herokuapp.com/apidoc/index.html
+ */
 
 const postToken = async () => {
   const response = await fetch("https://restful-booker.herokuapp.com/auth", {
@@ -57,7 +57,7 @@ const verifyNewUser = async () => {
 };
 
 const putUser = async () => {
-const token = await postToken();
+  const token = await postToken();
   const id = await verifyNewUser();
   const response = await fetch(
     `https://restful-booker.herokuapp.com/booking/${id}`,
@@ -84,7 +84,7 @@ const token = await postToken();
   const data = await response.json();
   const newName = data;
   console.log("--- Updated user: ", newName);
-  const updatedName = newName.firstname; 
+  const updatedName = newName.firstname;
   if (updatedName === "Daniel") {
     console.log("---👌👌👌 YOU GOT IT");
   }
