@@ -129,3 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .DS_Store
+/.idea/.gitignore
+/.idea/github_Javascript_HTTP_Responses_practice_2024.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/material_theme_project_new.xml

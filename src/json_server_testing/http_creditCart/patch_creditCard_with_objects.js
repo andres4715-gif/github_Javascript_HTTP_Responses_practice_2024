@@ -5,7 +5,7 @@ Get Name, lastName and id for any of the credit cart users witch withdrawals amo
 */
 
 const requestCreditCart = async () => {
-  const request = await fetch("http://localhost:3000/creditCart/", {
+  const request = await fetch("http://localhost:3000/creditCard/", {
     method: "GET",
     headers: {
       Connection: "keep-alive",
@@ -27,7 +27,7 @@ const responseCreditCart = async () => {
       const withdrawals = data.withdrawals.map(x => x.amount); 
       const total = withdrawals.reduce((a, b) => a + b, 0);
       if(total > 500) {
-        pathRequest = await fetch(`http://localhost:3000/creditCart/${data.id}`, {
+        pathRequest = await fetch(`http://localhost:3000/creditCard/${data.id}`, {
           method: 'PATCH',
           headers: {
             Connection: "keep-alive",

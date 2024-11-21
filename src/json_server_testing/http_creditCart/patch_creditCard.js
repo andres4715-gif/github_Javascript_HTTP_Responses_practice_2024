@@ -5,7 +5,7 @@ Get id for any of the credit cart users witch withdrawals.amount less than 400 a
 
 const request = async () => {
   try {
-    const getCreditCart = await fetch("http://localhost:3000/creditCart/", {
+    const getCreditCart = await fetch("http://localhost:3000/creditCard", {
       method: "GET",
     });
     return getCreditCart;
@@ -30,7 +30,7 @@ const response = async () => {
         console.log(`Id to be changed: ${filterData.id}`);
 
         patchRequest = await fetch(
-          `http://localhost:3000/creditCart/${filterData.id}`,
+          `http://localhost:3000/creditCard/${filterData.id}`,
           {
             method: "PATCH",
             headers: {
